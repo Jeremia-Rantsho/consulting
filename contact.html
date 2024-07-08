@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="header">
+        <section class="myNavbar">
+            <nav class="nav-fixed">
+                <div class="nav-wrapper">
+
+                    <a href="#" class="brand-logo">
+                        <div class="logoContainer">
+                            <div class="logoImg">
+                                <img class="responsive-img" src="images/logo-img.png" alt="Logo-image">
+                            </div>
+                            <div class="logoName">
+                                <img class="responsive-img" src="images/logo-name.png" alt="Logo-name">
+                            </div>
+                        </div>
+
+
+                    </a>
+                    <a href="#" data-target="mobile-nvn" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="productAndServices.html">Services</a></li>
+                        <li><a href="training.html">Training</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <ul class="sidenav" id="mobile-nvn">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="productAndServices.html">Services</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="row container center">
+        <h3 class="center">Contact us for any enquiries</h3>
+        <form class="col s12 m12 l12 white-text">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input placeholder="Enter first name" id="first_name" type="text" class="validate white-text">
+                    <label for="first_name">First Name</label>
+                </div>
+                <div class="input-field col s6">
+                    <input placeholder="Enter last name" id="last_name" type="text" class="validate white-text">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="email" type="email" class="validate white-text">
+                    <label for="email">Email</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea id="textarea1" class="materialize-textarea white-text"></textarea>
+                    <label for="textarea1">Enquiry</label>
+                </div>
+            </div>
+            <div class="row">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
+
+        </form>
+
+    </div>
+
+    <footer class="page-footer blue darken-5">
+        <div class="row blue darken-2">
+            <div class="col l6 s12">
+                <h5 class="white-text">Mokoena & Mokoena Consulting</h5>
+                <p class="grey-text text-lighten-4">
+                    We are a company that is more focused on delivering goods and services to its customers.
+                    The customers that the company works with on daily basis includes the public and the
+                    private sector.
+                </p>
+            </div>
+            <div class="col s12 l2">
+                <h5>Follow Us</h5>
+                <a href="https://www.facebook.com" target="_blank"
+                    class="btn-floating btn-large waves-effect waves-light blue">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com" target="_blank"
+                    class="btn-floating btn-large waves-effect waves-light blue darken-3">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+            </div>
+            <div class="col s12 l4">
+                <h5 class="white-text">Contact Us</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3"
+                            href="https://duckduckgo.com/?q=11+CAMEL+RIDGE+ESTATE%2C+152+CAMEL+ROAD%2C+THERESAPARK%2C+PRETORIA%2C+0182&atb=v434-6&iaxm=directions&source=directions&end=152+Camel+Road%2C+Akasia%2C+GP%2C+0182%2C+South+Africa&transport=automobile">
+                            <i class="material-icons valign">location_on</i>
+                            <span>11 CAMEL RIDGE ESTATE, 152 CAMEL ROAD, THERESAPARK, PRETORIA, 0182</span>
+
+                        </a></li>
+                    <li><a class="grey-text text-lighten-3" href="#!">
+                            <i class="material-icons">email</i>
+                            info@mokoenaandmokoena.co.za</a></li>
+                    <li><a class="grey-text text-lighten-3">
+                            <i class="material-icons">phone</i>
+                            phone us: (+27) 79 290 2304</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            © JD Rantsho & L Malebo
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="functionality.js"></script>
+</body>
+
+</html>

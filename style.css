@@ -1,0 +1,130 @@
+body {
+    background-color: #033055;
+    color: white;
+
+}
+
+
+#linkToabout {
+    margin-top: 40px;
+}
+
+#subText {
+    font-weight: bold;
+}
+
+#aboutSection {
+    font-size: 14px;
+    margin-top: 60px;
+
+}
+
+h1,
+.consulting-description {
+    width: 100%;
+    text-align: center;
+}
+
+.consulting-training{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.consulting-deliverables {
+    /* width: 50%; */
+    text-align: center;
+}
+
+.aboutImg,
+.paraImg {
+    object-fit: contain;
+}
+
+
+nav {
+    background-color: #2196F3;
+}
+
+nav a {
+    color: white;
+}
+
+
+.main{
+    margin-top: 20px;
+}
+
+.logoContainer {
+    display: flex;
+
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #2196F3;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider .slides img {
+    width: 100%;
+    height: auto; 
+}
+
+#bmSkill {
+    margin-top: 100px;
+}
+
+
+.servicesBody{
+    background-color: white;
+}
+
+.bkgInfo,
+#valueProp,
+#trainingTxt {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+#companyQuality {
+    background-color: aliceblue;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#scrollpyList {
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: aliceblue;
+    color: black;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.underline-text {
+    text-decoration: underline grey;
+}
+
+#testimonial{
+    padding: 0;
+}
+
+#theTeam{
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+#trainingBkgimage{
+    background-image: url(images);
+}
+
+#office_sub{
+    background-color: #033055;
+}
+
+#address-wrapper {
+    display: flex;
+    align-items: center; /* Vertically aligns the items */
+}
